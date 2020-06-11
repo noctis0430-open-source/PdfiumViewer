@@ -1,4 +1,4 @@
-﻿using System;
+﻿﻿using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Printing;
@@ -100,9 +100,9 @@ namespace PdfiumViewer
                     {
                         int page = _currentPage * pagesPerPage;
                         if (settings.Orientation == System.Windows.Forms.Orientation.Horizontal)
-                            page += vertical * settings.Vertical + horizontal;
+                            page += vertical * settings.Horizontal + horizontal;
                         else
-                            page += horizontal * settings.Horizontal + vertical;
+                            page += horizontal * settings.Vertical + vertical;
 
                         if (page >= _document.PageCount)
                             continue;
