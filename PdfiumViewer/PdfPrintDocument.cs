@@ -79,6 +79,13 @@ namespace PdfiumViewer
             base.OnPrintPage(e);
         }
 
+        protected override void Dispose(bool disposing)
+        {
+            _document?.Dispose();
+
+            base.Dispose(disposing);
+        }
+
         private void PrintMultiplePages(PrintPageEventArgs e)
         {
             var settings = _settings.MultiplePages;
