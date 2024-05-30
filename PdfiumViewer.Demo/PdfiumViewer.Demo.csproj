@@ -2,7 +2,7 @@
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <TargetFrameworks>net45;netcoreapp3.1;net6.0-windows</TargetFrameworks>
+    <TargetFrameworks>net45;netcoreapp3.1;net6.0-windows;net8.0-windows7.0</TargetFrameworks>
     <UseWindowsForms>true</UseWindowsForms>
     <AssemblyTitle>PdfViewer.Demo</AssemblyTitle>
     <Company>Pieter van Ginkel</Company>

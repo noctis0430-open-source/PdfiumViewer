@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFrameworks>net45;netcoreapp3.1;net6.0-windows</TargetFrameworks>
+    <TargetFrameworks>net45;netcoreapp3.1;net6.0-windows;net8.0-windows7.0</TargetFrameworks>
     <AssemblyTitle>PdfiumViewer.WPFDemo</AssemblyTitle>
     <Product>PdfiumViewer.WPFDemo</Product>
     <UseWPF>true</UseWPF>
